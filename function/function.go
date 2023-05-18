@@ -127,7 +127,7 @@ func isOverload() bool {
 	}
 }
 
-func TeraceMyCPU(cpumanagerskip string) bool {
+func TeraceMyCPU(cpumanagerskip string) {
 	totalloop += 1
 	TotalCPU := runtime.NumCPU()
 	out, err := exec.Command("uptime").Output()
