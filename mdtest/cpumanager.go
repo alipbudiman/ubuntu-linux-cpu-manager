@@ -6,6 +6,7 @@ import (
 	"os"
 	"os/exec"
 	"time"
+	"ubuntu-linux-cpu-manager/function"
 )
 
 var (
