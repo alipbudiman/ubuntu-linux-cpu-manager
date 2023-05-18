@@ -6,8 +6,6 @@ import (
 	"os"
 	"os/exec"
 	"time"
-
-	"github.com/alipbudiman/go-cpu-overload-kill-for-linux-ubuntu/function"
 )
 
 var (
